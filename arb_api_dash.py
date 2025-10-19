@@ -1,4 +1,4 @@
-# app.py
+# does not work -- EIA API does not provide the right data but theoretically this works with that
 
 import streamlit as st
 import pandas as pd
@@ -16,7 +16,7 @@ def create_sidebar_controls():
     
     # --- API Key Input ---
     # Hard-coded API key for convenience
-    api_key = "pWeHccHjT5QVlxMMoKpKmAKJLsqAGZZM9vdDREYS"
+    api_key = ""
     
     # --- Data and System Configuration ---
     st.sidebar.subheader("Market & System")
