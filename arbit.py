@@ -1,3 +1,5 @@
+# uses synthetic data, connected to arb_synth_dash
+
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
