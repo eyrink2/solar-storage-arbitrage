@@ -1,3 +1,5 @@
+# # does not work -- EIA API does not provide the right data
+
 import pandas as pd
 import numpy as np
 import requests
@@ -8,7 +10,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 class SolarStorageArbitrage:
-    def __init__(self, api_key='pWeHccHjT5QVlxMMoKpKmAKJLsqAGZZM9vdDREYS'):
+    def __init__(self, api_key=''):
         self.api_key = api_key
         if not self.api_key:
             raise ValueError("EIA API key not provided.")
